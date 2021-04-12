@@ -4,14 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarCenter
+namespace CarCenter.Controller.Base
 {
-    class Program
+    interface IController
     {
-        private 
-        static void Main(string[] args)
-        {
-            
-        }
+        void RunController();
     }
 }

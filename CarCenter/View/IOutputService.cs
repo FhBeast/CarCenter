@@ -4,14 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarCenter
+namespace CarCenter.View
 {
-    class Program
+    public interface IOutputService
     {
-        private 
-        static void Main(string[] args)
-        {
-            
-        }
+        void ShowMessage(string message);
     }
 }

@@ -4,14 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarCenter
+namespace CarCenter.InputService
 {
-    class Program
+    public interface IInputService
     {
-        private 
-        static void Main(string[] args)
-        {
-            
-        }
+        string InputString();
     }
 }

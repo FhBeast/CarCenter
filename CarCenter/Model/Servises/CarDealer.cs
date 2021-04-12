@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarCenter.Model
+namespace CarCenter.Model.Servises
 {
     class CarDealer
     {        

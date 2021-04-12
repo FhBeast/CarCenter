@@ -43,12 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\Base\IController.cs" />
+    <Compile Include="Controller\CarCenterController.cs" />
     <Compile Include="Exceptions\VehicleExistException.cs" />
-    <Compile Include="Model\CarDealer.cs" />
-    <Compile Include="Model\Color.cs" />
+    <Compile Include="InputService\ConsoleInput\ConsoleInput.cs" />
+    <Compile Include="InputService\IInputService.cs" />
+    <Compile Include="Model\Servises\CarDealer.cs" />
+    <Compile Include="Entities\Classes\Color.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Model\Vehicle.cs" />
+    <Compile Include="Entities\Classes\Vehicle.cs" />
+    <Compile Include="View\ConsoleOutput\ConsoleOutput.cs" />
+    <Compile Include="View\IOutputService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
