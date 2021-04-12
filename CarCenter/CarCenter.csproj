@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Exceptions\VehicleExistException.cs" />
     <Compile Include="Model\CarDealer.cs" />
-    <Compile Include="Model\VehicleList.cs" />
     <Compile Include="Model\Color.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CarCenter.Model;
 
 namespace CarCenter
 {
@@ -10,11 +11,7 @@ namespace CarCenter
     {
         static void Main(string[] args)
         {
-            while (true)
-            {
-                Console.WriteLine("Ты дурак");
-                string answer = Console.ReadLine();
-            }
+
         }
     }
 }
